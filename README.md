@@ -16,12 +16,12 @@ Added to cart-
 On checkout-
 ![Checkout](https://github.com/yash797/Voice-Kart/blob/main/screenshots/purchase.png)
 
-To run the Voice command button-
-    OPEN_CART: 'open-cart',
-    CLOSE_CART: 'close-cart',
-    ADD_CART: 'add-{item_name}-to-cart',
-    REMOVE_CART: 'remove-{item_name}-from-cart',
-    PURCHASE_ITEMS: 'purchase-items'
+##To run the Voice command button-
+    - OPEN_CART: 'open-cart',
+    - CLOSE_CART: 'close-cart',
+    - ADD_CART: 'add-{item_name}-to-cart',
+    - REMOVE_CART: 'remove-{item_name}-from-cart',
+    - PURCHASE_ITEMS: 'purchase-items'
 
 Setup:
 - run ```npm i && npm start``` to start the development server
