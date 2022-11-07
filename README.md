@@ -10,7 +10,7 @@ Just a simple Ecommerce web app but with a voice assistant which does everything
 
 ## Screenshots -
 
-![DashBoard](https://github.com/yash797/Voice-Kart/main/screenshots/DashBoard.png)
+
 ![Cart](https://github.com/yash797/Voice-Kart/main/screenshots/cart.png)
 ![Checkout](https://github.com/yash797/Voice-Kart/main/screenshots/purchase.png)
 
