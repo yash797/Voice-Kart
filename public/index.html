@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    
+    <title>Voice Kart</title>
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+    </script>
+  </head>
+  <body>
+    <header x-data="
+        {
+          navbarOpen: false
+        }
+      " class="flex w-full  bg-blue-800 fixed bg-opacity-95 z-50" style="text-align:left">
+        <div class="container">
+            <div class="relative -mx-4 flex  justify-between">
+                <div class="w-60 max-w-full px-4">
+                    <a href="javascript:void(0)" class="block w-full py-5 pl-16 text-white text-2xl hover:scale-105 font-serif" >
+                       Voice Kart
+                    </a>
+                </div>
+                <div class="flex w-full items-center justify-between ">
+                    <div>
+                        <button @click="navbarOpen = !navbarOpen" :class="navbarOpen && 'navbarTogglerActive' " id="navbarToggler" class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden">
+                <span
+                  class="relative my-[6px] block h-[2px] w-[30px] bg-body-color"
+                ></span>
+                <span
+                  class="relative my-[6px] block h-[2px] w-[30px] bg-body-color"
+                ></span>
+                <span
+                  class="relative my-[6px] block h-[2px] w-[30px] bg-body-color"
+                ></span>
+              </button>
+                        <!-- <nav :class="!navbarOpen && 'hidden' " id="navbarCollapse" class="absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white py-5 px-6 shadow lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none">
+                            <ul class="blcok lg:flex">
+                                <li>
+                                    <a href="home.html" class="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex">
+                      Home
+                    </a>
+                                </li>
+                                <li>
+                                    <a href="donation.html" class="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex">
+                     Donate
+                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.html" class="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex">
+                     About Us
+                     
+                    </a>
+                                </li>
+                                <li>
+                                    <a href="faq.html" class="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex">
+  
+                FAQ's                  </a>
+                                </li>
+                                <li>
+                                    <a href="faq.html" class="flex py-2 text-base font-medium text-dark hover:text-primary lg:ml-12 lg:inline-flex">
+
+              Gallery                  </a>
+                                </li>
+                            </ul>
+                        </nav> -->
+                    </div>
+                    
+                    <!-- <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
+                        <a href="#" class="py-3 px-4 text-base font-medium text-white hover:text-primary">
+                Cart
+              </a>
+                        <a href="#" class="py-3 px-20 text-base font-medium text-white hover:text-primary">
+                Login
+              </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <p class="text-4xl pl-6 pt-20 -mb-16 font-bold text-blue-900">LATEST ITEMS</p>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div>
+      <p class="copy_right text-center" styles="text-align:c>
+          <p>
+
+              Copyright &copy;
+              <script>
+                  document.write(new Date().getFullYear());
+              </script> All rights reserved | This Site is made by <i class="ti-heart" aria-hidden="true"></i> All rights reserved | This Site is made by <span class="hover:text-blue-500 text-lg"><a href="https://www.linkedin.com/in/yash-pande-/" >Yash Pande</a></span>
+
+          </p>
+      </p>
+  </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- <script> 
+      var input = document.getElementById('alanBtn');
+
+      input.onkeydown = function() {
+          var key = event.keyCode || event.charCode;
+      
+          if( key == 8 || key == 46 )
+              return false;
+      }
+ 
+  </script> -->
+  <!-- <script>
+
+    window.addEventListener('keydown', function(e) {
+      if (e.keyCode == 13) {
+          alanState();
+          console.log('Space pressed');
+      }
+  });
+  
+  </script> -->
+  </body>
+</html>
+

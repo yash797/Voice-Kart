@@ -1,0 +1,73 @@
+ [{
+         "id": 1,
+         "name": "Red",
+         "url":"https://ae01.alicdn.com/kf/Hfb8ea3ccc12142c1baf941d9e273c851m/Naruto-Anime-Sharingan-Eye-Keychains-Accessories-Charm-Pendant-Uchiha-Itachi-Cosplay-Keychain-Key-Ring-Toys-for.jpg_Q90.jpg_.webp",
+         "priceCents": 1600,
+         
+        
+         
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+     },
+     {
+         "id": 2,
+         "name": "Yellow",
+         "url": "https://manga-mafia.com/media/catalog/product/cache/8/image/9df78eab33525d08d6e5fb8d27136e95/7/_/7_abymug960_a.jpg",
+                 "priceCents": 2100,
+               
+         "imageColor": "FF0",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+     },
+     {
+         "id": 3,
+         "name": "Purple",
+        
+         "url": "https://www.actionfiguresitalia.it/226743-large_default/dragon-ball-super-ichibansho-pvc-statues-ssgss-son-goku-ssgss-vegeta-vs-omnibus-super-20-21-cm.jpg",
+         "priceCents": 2100,
+         "imageColor": "60F",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+     },
+     {
+         "id": 7,
+         "url":"https://img.joomcdn.net/be5564c0978cf1d53b55c003e48bae96ae6c145e_original.jpeg",
+         
+         "name": "Light Gray",
+             "priceCents": 1200,
+         "imageColor": "AAA",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+     },
+    
+     {
+         "id": 5,
+         "name": "Green",
+         "url":"https://www.nendoworld.com/wp-content/uploads/2021/07/b6c51767ed8c6f1f53ee318c2a7109aa.jpg",
+         "priceCents": 1600,
+         "imageColor": "0F0",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+     },
+     {
+         "id": 6,
+         "name": "Blue",
+          "priceCents": 1200,
+          "url":"https://www.ubuy.co.in/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFIWm4ySVdVNVMuX0FDX1NMMTUwMF8uanBn.jpg",
+         "imageColor": "00F",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+     },
+      {
+         "id": 4,
+         "name": "Orange",
+         "url": "https://goodsmileshop.com/medias/sys_master/images/images/hfd/h66/8997353586718.jpg",
+         "priceCents": 1800,
+         
+         "imageColor": "F60",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+     },
+     
+     {
+         "id": 8,
+         "name": "Dark Gray",
+         "url":"https://flxt.tmsimg.com/assets/p17183648_b_v9_aa.jpg",
+             "priceCents": 1600,
+         "imageColor": "333",
+         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+     }
+ ]
