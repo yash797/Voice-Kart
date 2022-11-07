@@ -10,9 +10,9 @@ Just a simple Ecommerce web app but with a voice assistant which does everything
 
 ## Screenshots -
 
-![DashBoard](https://github.com/UtkarshA135/AI-powered-Ecommerce/blob/master/screenshots/DashBoard.png)
-![Cart](https://github.com/UtkarshA135/AI-powered-Ecommerce/blob/master/screenshots/cart.png)
-![Checkout](https://github.com/UtkarshA135/AI-powered-Ecommerce/blob/master/screenshots/purchase.png)
+![DashBoard](https://github.com/yash797/Voice-Kart/main/screenshots/DashBoard.png)
+![Cart](https://github.com/yash797/Voice-Kart/main/screenshots/cart.png)
+![Checkout](https://github.com/yash797/Voice-Kart/main/screenshots/purchase.png)
 
 
 
