@@ -23,7 +23,7 @@ On checkout-
 - REMOVE_CART: 'remove-{item_name}-from-cart',
 - PURCHASE_ITEMS: 'purchase-items'
 - CHECKOUT: 'checkout'
-- for example to add red shirt to cart, one must say add red tshirt to cart then it will ask you to specify the quantity of red tshirts.
+- For example to add red shirt to cart, one must say add red tshirt to cart then it will ask you to specify the quantity of red tshirts.
 
 Setup:
 - run ```npm i && npm start``` to start the development server
