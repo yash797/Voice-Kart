@@ -15,15 +15,15 @@ export default function StoreItem({ item }) {
 
   return (
     <>
-    
-      <div className="lg:w-1/4 w-1/2 p-3">
-        <div className="block relative h- rounded-xl overflow-hidden border-soild border-4 border-blue-500 border-opacity-40">
-          <div className= "w-96 h-96 transition duration-1000 ease-in-out hover:-translate-y-1 hover:scale-125">
-          <img
-            alt="e-commerce"
-            className="object-cover object-center w-full h-full block"
-            src={`${item.url}`}
-          /></div>
+      <div className="   justify-center w-1/4 px-6 ">
+        <div className="block mt-12  relative rounded-xl overflow-hidden   ">
+          <div className="w-80 h-80 transition duration-1000 ease-in-out hover:-translate-y-1 hover:scale-105">
+            <img
+              alt="e-commerce"
+              className="object-cover object-center w-full h-full block "
+              src={`${item.url}`}
+            />
+          </div>
         </div>
         <div className="mt-4 flex items-end justify-between">
           <div>
@@ -44,7 +44,6 @@ export default function StoreItem({ item }) {
         </div>
       </div>
       <StoreItemModal item={item} open={open} closeModal={closeModal} />
-      
     </>
-  )
+  );
 }
