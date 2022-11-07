@@ -16,7 +16,7 @@ Added to cart-
 On checkout-
 ![Checkout](https://github.com/yash797/Voice-Kart/blob/main/screenshots/purchase.png)
 
-##To run the Voice command button-
+## To run the Voice command button-
     - OPEN_CART: 'open-cart',
     - CLOSE_CART: 'close-cart',
     - ADD_CART: 'add-{item_name}-to-cart',
