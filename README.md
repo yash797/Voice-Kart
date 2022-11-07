@@ -10,8 +10,10 @@ Just a simple Ecommerce web app but with a voice assistant which does everything
 
 ## Screenshots -
 
-
+Added to cart-
 ![Cart](https://github.com/yash797/Voice-Kart/blob/main/screenshots/cart.png)
+
+On checkout-
 ![Checkout](https://github.com/yash797/Voice-Kart/blob/main/screenshots/purchase.png)
 
 
