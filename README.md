@@ -1,5 +1,5 @@
-#DEMP
--visit "https://voicekart.netlify.app/"
+# DEMO
+-visit https://voicekart.netlify.app/
 
 # AI Powered Basic Ecommerce web app
 Just a simple Ecommerce web app but with a voice assistant which does everything for you - 
