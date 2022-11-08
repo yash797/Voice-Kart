@@ -1,3 +1,6 @@
+#DEMP
+-visit "https://voicekart.netlify.app/"
+
 # AI Powered Basic Ecommerce web app
 Just a simple Ecommerce web app but with a voice assistant which does everything for you - 
 - Opening and closing cart
